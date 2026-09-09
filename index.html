@@ -9,36 +9,45 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="shell">
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Shaunie home">shaunie<span>.codes</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="#work">work</a>
-        <a href="https://github.com/shaunitareda" rel="me">github ↗</a>
-      </nav>
-    </header>
-    <section class="hero" id="top">
-      <p class="kicker">OPEN SOCIAL WEB / FEDIVERSE / AT PROTOCOL</p>
-      <h1>I make things for<br>the social web.</h1>
-      <p class="lede">Small tools, integrations, bots and experiments around the Fediverse, AT Protocol and whatever else catches my attention.</p>
-      <p class="note">I make things because I wanted them to exist.</p>
-    </section>
-    <section class="work" id="work" aria-labelledby="work-heading">
-      <div class="section-label"><span>01</span><h2 id="work-heading">social web</h2></div>
-      <div class="catalogue">
-        <a class="project" href="https://github.com/shaunitareda/crosspost-to-bluesky"><span class="number">001</span><span class="project-main"><strong>Crosspost to Bluesky</strong><small>WordPress → Bluesky</small></span><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/shaunitareda/crosspost-to-pixelfed"><span class="number">002</span><span class="project-main"><strong>Crosspost to Pixelfed</strong><small>WordPress → Pixelfed</small></span><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/shaunitareda/crosspost-to-loops"><span class="number">003</span><span class="project-main"><strong>Crosspost to Loops</strong><small>WordPress → Loops</small></span><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/shaunitareda/crosspost-to-inkwell"><span class="number">004</span><span class="project-main"><strong>Crosspost to Inkwell</strong><small>WordPress → Inkwell</small></span><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/shaunitareda/bill-on-the-floor-bot"><span class="number">005</span><span class="project-main"><strong>Bill on the Floor</strong><small>Congress → AT Protocol</small></span><span class="arrow">↗</span></a>
-      </div>
-    </section>
-    <section class="work secondary" aria-labelledby="other-heading">
-      <div class="section-label"><span>02</span><h2 id="other-heading">other contraptions</h2></div>
-      <div class="catalogue"><a class="project" href="https://github.com/shaunitareda/downloads-cleaner"><span class="number">006</span><span class="project-main"><strong>Downloads Cleaner</strong><small>Because the Downloads folder eventually becomes a lifestyle problem.</small></span><span class="arrow">↗</span></a></div>
-    </section>
-    <section class="about"><p>I’m Shaunie. I like self-hosting, open platforms, weird little utilities and figuring out how systems can talk to each other. I build with AI as a development partner and stay hands-on with the decisions, debugging, testing and maintenance.</p></section>
-    <footer><span>Shaunie · NYC</span><div><a href="https://github.com/shaunitareda">GitHub</a></div></footer>
-  </main>
+<main class="shell">
+  <header class="site-header">
+    <a class="prompt brand" href="#top">shaunie@web:~$ <span class="cursor" aria-hidden="true"></span></a>
+    <nav><a href="#work">/work</a><a href="https://github.com/shaunitareda">/github ↗</a></nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="intro">
+      <h1>&gt; hello, i’m shaunie.</h1>
+      <p class="tagline">I make things for the social web.</p>
+      <p>Small tools, integrations, bots and experiments around the Fediverse, AT Protocol and whatever else catches my attention.</p>
+      <p class="muted">I make things because I wanted them to exist.</p>
+    </div>
+    <aside class="whoami" aria-label="About Shaunie">
+      <p><strong>shaunie@web:~$</strong> whoami</p>
+      <p>Shaunie<br>Builder<br>Fediverse enthusiast<br>Self-hoster<br>Always experimenting</p>
+      <p>Location: NYC<br>Focus: Open social web<br><strong>Status:</strong> <span class="status">Building...</span> <span class="cursor small" aria-hidden="true"></span></p>
+    </aside>
+  </section>
+
+  <section class="work" id="work">
+    <div class="command-row"><h2>shaunie@web:~$ ls ./social-web</h2><span># Fediverse · AT Protocol · Open Web</span></div>
+    <div class="terminal-list">
+      <a href="https://github.com/shaunitareda/crosspost-to-bluesky"><span class="folder">□</span><span class="num">01</span><strong>Crosspost to Bluesky</strong><span class="desc">WordPress → Bluesky</span><span>→</span></a>
+      <a href="https://github.com/shaunitareda/crosspost-to-pixelfed"><span class="folder">□</span><span class="num">02</span><strong>Crosspost to Pixelfed</strong><span class="desc">WordPress → Pixelfed</span><span>→</span></a>
+      <a href="https://github.com/shaunitareda/crosspost-to-loops"><span class="folder">□</span><span class="num">03</span><strong>Crosspost to Loops</strong><span class="desc">WordPress → Loops</span><span>→</span></a>
+      <a href="https://github.com/shaunitareda/crosspost-to-inkwell"><span class="folder">□</span><span class="num">04</span><strong>Crosspost to Inkwell</strong><span class="desc">WordPress → Inkwell</span><span>→</span></a>
+      <a href="https://github.com/shaunitareda/bill-on-the-floor-bot"><span class="folder">□</span><span class="num">05</span><strong>Bill on the Floor</strong><span class="desc">Congress → AT Protocol</span><span>→</span></a>
+    </div>
+  </section>
+
+  <section class="work secondary">
+    <div class="command-row"><h2>shaunie@web:~$ ls ./other-contraptions</h2><span># Utilities · Experiments · Because I Can</span></div>
+    <div class="terminal-list">
+      <a href="https://github.com/shaunitareda/downloads-cleaner"><span class="folder">□</span><span class="num">06</span><strong>Downloads Cleaner</strong><span class="desc">Because the Downloads folder eventually becomes a lifestyle problem.</span><span>→</span></a>
+    </div>
+  </section>
+
+  <footer><span class="prompt">shaunie@web:~$ <span class="cursor" aria-hidden="true"></span></span><div><span>NYC</span><a href="https://github.com/shaunitareda">GitHub ↗</a></div></footer>
+</main>
 </body>
 </html>
